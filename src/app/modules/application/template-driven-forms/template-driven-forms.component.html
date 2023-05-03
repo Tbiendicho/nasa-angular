@@ -1,0 +1,24 @@
+<div>
+  <h1>Informations sur les astéroides proches de la Terre</h1>
+</div>
+<div>
+  <h4>Entrer des dates</h4>
+</div>
+<div>
+  <form #form="ngForm" (ngSubmit)="submit(form)">
+    <div class="form">
+      <div class="form-sub">
+        <label for="start_date">Date de début</label>
+        <input type="text" class="form-control" name="start_date" id="start_date" [ngModel]="asteroide.start_date">
+      </div>
+      <div class="form-sub">
+        <label for="end_date">Date de fin</label>
+        <input type="text" class="form-control" name="end_date" id="end_date" [ngModel]="asteroide.end_date">
+      </div>
+    </div>
+    <div class="form">
+      <button type="submit">Rechercher</button>
+      <button type="submit">Supprimer</button>
+    </div>
+  </form>
+</div>
