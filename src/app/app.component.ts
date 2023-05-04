@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'La tête dans les étoiles';
-  footerUrl = 'https://www.thomas-biendicho.fr';
-  footerLink = 'https://www.thomas-biendicho.fr';
+  footerUrl = 'https://thomas-biendicho.fr';
+  footerLink = 'https://thomas-biendicho.fr';
 }
